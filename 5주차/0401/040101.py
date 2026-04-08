@@ -8,7 +8,7 @@ def greeting () :
     for i in range(1,6) :
         print("안녕")
         
-#함수 호출
+#리턴값이 없기에 따로 함수 호출
 greeting()
 
 
