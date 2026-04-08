@@ -14,7 +14,8 @@ def profile(name, year, *subject) :
     print(f"이름 : {name}\t 학년 : {year}학년\t", end = " ") # end = " " -> 줄바꿈 방지
     for sub in subject :
         print(sub, end = " ")
-    print()   
+    print()  
+#가변인자 랑 반복문 비워놓고 채우는거 문제 출제 예정
 
 profile("강바람",2,"Pythom", "JAVA", "C++", "C", "C#")
 profile("들국화",1,"HTML", "Kotlin")
