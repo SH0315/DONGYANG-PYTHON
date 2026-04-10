@@ -39,7 +39,7 @@ else :
 print("택시 타고 가세요" if "money" in pocket or card else "걸어가세요")  
    
 #조건부 표현법     
-#(조건문이 참일때) if(조건문) else (조건문이 참인 경우)
+#(조건문이 참일때) if(조건문) else (조건문이 거짓인 경우)
 score = int(input("점수는 몇점?: "))
 print("Success" if score >= 60 else "Failure")
 
